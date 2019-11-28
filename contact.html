@@ -36,11 +36,31 @@
 	<div class="meie">
 		<div class="info">
 			<p>Aadress: Ülikooli 17, 51005 Tartu<br>
-			Kohalolekuajad: E-R: 08:00-17:00</p>
+			Kohalolekuajad: E-R: 08:00-17:00<br>
+			Telefon: +372 52 345 678<br>
+			E-post: info@fbd.ee</p>
 		</div>	
 		
-		<div>
+		<div class="button">
 			<button onclick="on()">Meie asukoht kaardil</button>
+		</div>
+		<div class="form">
+			<form action="/action_page.php" method="post">
+				<p>
+				<legend>Võtke meiega ühendust</legend>
+				Ees- ja perenimi:<br>
+				<input type="text" required name="name"><br>
+				E-mail:<br>
+				<input type="text" required name="mail"><br>
+				Telefon:<br>
+				<input type="text" required name="phone"><br>
+				Sõnum:<br>
+				<input id="txt" type="text" onkeypress="this.style.width = ((this.value.length + 1) * 6) + 'px';" required name="msg" style="min-width: 160px"><br>
+				<div class="button">
+					<button type="submit" [disabled]="!ngForm.valid">Saada</button>
+				</p>
+				</div>
+			</form>
 		</div>
 	</div>
 
@@ -53,22 +73,6 @@
 				document.getElementById("overlay").style.display = "none";
 				}
 		</script>
-
-
-		<div class="form">
-			<form action="/action_page.php" method="post">
-				<legend>Võtke meiega ühendust</legend>
-				Ees- ja perenimi:<br>
-				<input type="text" required name="name"><br>
-				Ettevõte:<br>
-				<input type="text" required name="company"><br>
-				Sõnum:<br>
-				<input id="txt" type="text" onkeypress="this.style.width = ((this.value.length + 1) * 6) + 'px';" required name="msg" style="min-width: 160px"><br>
-				<button type="submit" [disabled]="!ngForm.valid">Submit</button>
-				
-			</form>
-		</div>
-
 
 		<!-- Script upload here-->
 		<script src="js/myTopnav.js"></script>
