@@ -5,9 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FBD Balance ehitusfirma</title>
 <link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/projects.css">
+
 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>
@@ -26,15 +27,87 @@
   </a>
 </div>
 </section>
+<section class="galerii">
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> All</button>
+  <button class="btn" onclick="filterSelection('building')"> Building</button>
+  <button class="btn" onclick="filterSelection('interior')"> Interior</button>
+  <button class="btn" onclick="filterSelection('office')"> Office</button>
+  <button class="btn" onclick="filterSelection('consulting')"> Consulting</button>
+</div>
 
-<section class="section content">
-<h2 class="hideh2">Section 1</h2>
-<h2> Siia saab naiteks luua kontekti -> projektid</h2>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column building">
+    <div class="content">
+      <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
+  <div class="column building">
+    <div class="content">
+    <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
+  <div class="column building">
+    <div class="content">
+    <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
+  
+  <div class="column interior">
+    <div class="content">
+      <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
+  <div class="column interior">
+    <div class="content">
+    <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
+  <div class="column interior">
+    <div class="content">
+    <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column office">
+    <div class="content">
+      <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
+  <div class="column office">
+    <div class="content">
+    <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
+  <div class="column office">
+    <div class="content">
+    <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column consulting">
+    <div class="content">
+      <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
+  <div class="column consulting">
+    <div class="content">
+    <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
+  <div class="column consulting">
+    <div class="content">
+    <img src="img/hoone1.jpeg" alt="" style="width:100%">
+    </div>
+  </div>
 </section>
+
 
 
 <!-- Script upload here-->
 <script src="js/myTopnav.js"></script>
+<script src="js/galerii.js"></script>
 </main>
 
 </body>
