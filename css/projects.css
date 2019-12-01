@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.galerii {
+  background-color: #D3D3D3;
+  padding: 20px;
+  font-family: Arial;
+}
+.responsiveg {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background-color: white;
+  padding: 2px;
+}
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  max-width: 25%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btng {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.btng:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.btng.active {
+  background-color: #ff8c00;
+  color: white;
+}
