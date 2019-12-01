@@ -7,7 +7,13 @@
   padding: 20px;
   font-family: Arial;
 }
-
+.responsiveg {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background-color: white;
+  padding: 2px;
+}
 /* Center website */
 .main {
   max-width: 1000px;
@@ -26,13 +32,13 @@ h1 {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 10px;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
+  max-width: 25%;
   display: none; /* Hide all elements by default */
 }
 
@@ -43,19 +49,13 @@ h1 {
   clear: both;
 }
 
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
-
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
 }
 
 /* Style the buttons */
-.btn {
+.btng {
   border: none;
   outline: none;
   padding: 12px 16px;
@@ -64,12 +64,12 @@ h1 {
   cursor: pointer;
 }
 
-.btn:hover {
+.btng:hover {
   background-color: #f2f2f2;
   color: black;
 }
 
-.btn.active {
+.btng.active {
   background-color: #ff8c00;
   color: white;
 }
