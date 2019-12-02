@@ -4,6 +4,7 @@ Veebilehe projekt sissejuhatus aines
 Veebileht tutvustab õhust võetud ehitusfirmat. Veebileht on kujul rohkem nagu visiitkaart.
 
 Töö eesmärk oli arendada html/css ja javascripti oskused.
+
 Tiimiliikmed: Kristo Vanderflit, Kaido Tikk ja Gustav Nikopensius.
 Tööjaotus oli järgmine: 
 Kristo valmistas veebistruktuuri, ülemine menüü, samuti, et leht oleks responsible ning valmistas lihtsaid lehte: Avalehe ja Meist.
