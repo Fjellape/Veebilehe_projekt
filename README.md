@@ -19,4 +19,6 @@ Gustav tegi lehe Kontakt.
 Millised raskused esinesid?
 
 Kristo: Õppisin tööjagamist. Minu arvatest tööjaotus oli enam liigi võrdne iga tiimiliikme kohta.
-Natukene raskusi esitas ainult struktuuri paika panemine ning menüü. 
+Natukene raskusi esitas ainult struktuuri paika panemine ning menüü.
+
+Kaido: Pildi galerii kokkupanek ilma raamistikuta osutus palju keerukamaks kui ette kujutasin. Tahtsin ilusat pildi galeriid moodustada aga lõpp tulemus tuli lihtsam varjant, et üldine pildi valik töötaks.
