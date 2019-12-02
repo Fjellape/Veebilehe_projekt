@@ -1,7 +1,7 @@
 # Veebilehe_projekt
 Veebilehe projekt sissejuhatus aines
 
-Veebileht tutvustab õhust võetud ehitusfirmat. Veebileht on kujul rohkem nagu visiitkaart.
+Veebileht tutvustab väljamõeldud ehitusfirmat. Veebileht on kujul rohkem nagu visiitkaart.
 
 Töö eesmärk oli arendada html/css ja javascripti oskused.
 
