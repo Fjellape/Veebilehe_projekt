@@ -1,3 +1,4 @@
+//https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_portfolio_gallery_filter
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
@@ -41,3 +42,4 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
