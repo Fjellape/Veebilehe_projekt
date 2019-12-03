@@ -22,3 +22,5 @@ Kristo: Õppisin tööjagamist. Minu arvatest tööjaotus oli enam liigi võrdne
 Natukene raskusi esitas ainult struktuuri paika panemine ning menüü.
 
 Kaido: Pildi galerii kokkupanek ilma raamistikuta osutus palju keerukamaks kui ette kujutasin. Tahtsin ilusat pildi galeriid moodustada aga lõpp tulemus tuli lihtsam varjant, et üldine pildi valik töötaks.
+
+Gustav: Kaardi kuvamine overlay-efektiga oli minu jaoks kõige keerulisem osa - elu esimene javascript. Asjade paigutamine css-is valmistas mitmeid micro-raskusi: kuna ma ei olnud kindel, mis vahenditega saavutada oma soovitud tulemust, pidin palju katsetama. 
